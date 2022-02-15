@@ -1,4 +1,10 @@
+"""
+Acronym
+"""
 def abbreviate(words):
+    """
+    Convert a phrase to its acronym.
+    """
     acronym = []
     words = words.replace('_', ' ')
     words = words.replace('-', ' ')
