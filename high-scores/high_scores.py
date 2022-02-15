@@ -1,10 +1,22 @@
+"""
+High Scores
+"""
 def latest(scores):
-    pass
+    """
+    latest score
+    """
+    return scores[-1]
 
 
 def personal_best(scores):
-    pass
+    """
+    highest score
+    """
+    return sorted(scores, reverse=True)[0]
 
 
 def personal_top_three(scores):
-    pass
+    """
+    three highest scores
+    """
+    return sorted(scores, reverse=True)[:3]
