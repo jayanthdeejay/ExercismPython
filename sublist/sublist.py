@@ -29,10 +29,10 @@ def sublist(list_one, list_two):
     """
     one = ''
     two = ''
-    for index, val in enumerate(list_one):
-        one += str(list_one[index])
-    for index, val in enumerate(list_two):
-        two += str(list_two[index])
+    for val in list_one:
+        one += str(val)
+    for val in list_two:
+        two += str(val)
     one = "".join(one)
     two = "".join(two)
     if one == two:
