@@ -1,5 +1,6 @@
 # ExercismPython
 Working on Exercism's Python exercises to review Python programming as part of interview preparation.
+You can checkout my progress at [Exercism](https://exercism.org/profiles/jayanthdeejay)
 
 Following About is copied from Exercism's Python track [about](https://github.com/exercism/python/blob/main/docs/ABOUT.md) document for my reference.
 
